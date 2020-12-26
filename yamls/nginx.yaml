@@ -15,5 +15,5 @@ spec:
         app: nginx
     spec:
       containers:
-      - image: nginx
+      - image: argoaks.azurecr.io/nginx:latest
         name: nginx
